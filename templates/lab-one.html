@@ -1,0 +1,42 @@
+<div class="row centered text-centered">
+		<h3>Лабораторная работа №1</h3>
+</div>
+<div class="row lab1">
+	<div class="four columns inputs-block">
+		<label for="#variant">Введите свой вариант:</label>
+		<br>
+		<input id="variant" ng-model="variant" type="text">
+		<br>
+		<label for="#alpha">Введите альфа граничное:</label>
+		<br>
+		<input type="text" ng-model="alphaGr">
+		<br>
+		<button ng-click="getCorrField()" class="get-answer">Получить ответ</button>
+	</div>
+	<div class="eight columns charts-block">
+		<div id ='correlation-field'></div>
+		<div id ='probability'></div>
+		<span>Минимальное Un: <b>{{UnMin}}</b></span>
+		<br>
+		<span>Максимальное Un: <b>{{UnMax}}</b></span>
+		<br>	
+		<span>True Positive: <b>{{nTp}}</b></span>
+		<br>
+		<span>True Negative: <b>{{nTn}}</b></span>
+		<br>
+		<span>False Positive: <b>{{nFp}}</b></span>
+		<br>
+		<span>False Negative: <b>{{nFn}}</b></span>
+		<br>
+		<span>nK1: <b>{{nK1}}</b></span>
+		<br>
+		<span>nK2: <b>{{nK2}}</b></span>
+		<br>
+		<span>Perror: <b>{{Perr}}</b></span>
+		<br>
+		<span>Pcorrect: <b>{{Pcorr}}</b></span>
+		<br>
+		<span>Range: <b>{{range}}</b></span>
+		<br>
+	</div>
+</div>

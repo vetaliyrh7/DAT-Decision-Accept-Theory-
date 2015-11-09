@@ -1,0 +1,30 @@
+.text-centered {
+	text-align: center;
+	/*border: solid 1px green;*/
+}
+.lab1 input {
+	width: 90%;
+	padding: 1em;
+	border: solid .2em #455a64; 
+	border-radius: .5em;
+	font-weight: bold;
+}
+.charts-block,
+.inputs-block {
+	margin-top: .5em;
+	border: solid .2em #455a64;
+	border-radius: .5em;
+	padding: 1em; 
+}
+.get-answer {
+	font-size: 1.5em;
+	cursor: pointer;
+	margin-top: .9em;
+	border: none;
+	width: 100%;
+	padding: .3em;
+	border-radius: .2em;
+	font-weight: bold;
+	color: white;
+	background: #455a64;
+}

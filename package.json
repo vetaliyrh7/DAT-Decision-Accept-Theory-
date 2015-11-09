@@ -1,0 +1,15 @@
+{
+  "name"         : "DAT",
+  "version"      : "1.0.0-beta",
+  "description"  : "Labs for decision accepting theory",
+  "main"         : "server.js",
+  "author"       : "V.Kononenko",
+  "dependencies" : {
+    "express"    : "~3.4.4",
+    "mongoose"   : "~3.6.2",
+    "body-parser": "~1.14.1",
+    "method-override" : "~2.3.5",
+    "angular"    : "~1.4.6",
+    "zingchart"  : "~2.2.0"
+  }
+}
